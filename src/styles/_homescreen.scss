@@ -1,3 +1,22 @@
-.backgroundIntroBg {
-  background-image: url("../images/bg-intro-desktop.svg");
+.sectionBackgroundColor {
+  background-color: turquoise;
+}
+
+.leftDescriptionBox {
+  display: inline;
+}
+
+.scheduleBtn {
+  background-color: darkblue;
+  padding: 15px;
+  border-radius: 10px;
+  color: #ffffff;
+}
+
+.scheduleBtnTrans {
+  background-color: transparent;
+  border-color: transparent;
+  padding: 15px;
+  color: black;
+  font-weight: bold;
 }

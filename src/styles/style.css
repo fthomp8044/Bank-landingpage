@@ -1,49 +1,46 @@
-.brandHeader {
-  position: relative;
-  right: 40%;
+.navScheduleBtn {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  margin-left: 80%;
 }
 
-.navlink {
-  color: blue;
-  font-family: serif;
-  font-weight: bolder;
-  font-size: 20px;
-  font-weight: bolder;
+.navMenu {
+  margin-left: 5%;
 }
 
-.navlink:hover {
+.nav-link {
+  font-size: 21px;
   color: black;
 }
 
-.downArrow {
-  position: fixed;
-  right: 50%;
-  top: 37%;
+.scheduleBtn {
+  background-color: darkblue;
+  padding: 10px;
+  border-radius: 10px;
+  color: #ffffff;
 }
 
-.homepageTitle {
-  text-align: center;
-  padding-top: 8%;
-  font-family: serif;
+.sectionBackgroundColor {
+  background-color: turquoise;
+}
+
+.leftDescriptionBox {
+  display: inline;
+}
+
+.scheduleBtn {
+  background-color: darkblue;
+  padding: 15px;
+  border-radius: 10px;
+  color: #ffffff;
+}
+
+.scheduleBtnTrans {
+  background-color: transparent;
+  border-color: transparent;
+  padding: 15px;
+  color: black;
   font-weight: bold;
-  font-size: 6vh;
-  color: white;
-}
-
-.mr-auto {
-  margin: auto;
-}
-
-.brandImage {
-  margin-left: 8rem;
-}
-
-.requestButton {
-  margin-right: 8rem;
-  border-radius: 17% / 50%;
-}
-
-.backgroundIntroBg {
-  background-image: url("../images/bg-intro-desktop.svg");
 }
 /*# sourceMappingURL=style.css.map */
