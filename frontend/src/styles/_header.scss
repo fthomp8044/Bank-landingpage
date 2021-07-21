@@ -1,10 +1,14 @@
+.headerContent {
+  padding-top: 5%;
+  background: linear-gradient(90deg, #fff 51%, #33BBFF 50%);
+}
 .navScheduleBtn {
-  justify-content: end;
-  margin-left: 80%;
+margin-left: 60%;
 }
 
 .navMenu {
   margin-left: 5%;
+  display: flex;
 }
 .nav-link {
   font-size: 21px;

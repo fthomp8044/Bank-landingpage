@@ -5,7 +5,7 @@ import { LinkContainer } from "react-router-bootstrap";
 function Header() {
   return (
     <header>
-      <Container className="py-5" fluid>
+      <Container className="headerContent" py-5 fluid>
         <Nav className="navMenu">
           <Navbar.Brand className="brandImage" href="#home">
             <svg

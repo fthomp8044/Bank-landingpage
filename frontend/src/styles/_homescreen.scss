@@ -6,6 +6,10 @@
   display: inline;
 }
 
+.leftSectionTitle {
+font-family: 'Times New Roman', Times, serif;
+font-size: 4em;}
+
 .scheduleBtn {
   background-color: darkblue;
   padding: 15px;
@@ -19,4 +23,11 @@
   padding: 15px;
   color: black;
   font-weight: bold;
+}
+
+.rightSectionImage {
+  width: inherit;
+  background: linear-gradient(90deg, #33BBFF 50%, #33BBFF 50%);
+
+
 }

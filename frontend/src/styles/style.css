@@ -1,0 +1,63 @@
+.headerContent {
+  padding-top: 5%;
+  background: -webkit-gradient(linear, left top, right top, color-stop(51%, #fff), color-stop(50%, #33BBFF));
+  background: linear-gradient(90deg, #fff 51%, #33BBFF 50%);
+}
+
+.navScheduleBtn {
+  margin-left: 60%;
+}
+
+.navMenu {
+  margin-left: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav-link {
+  font-size: 21px;
+  color: black;
+}
+
+.scheduleBtn {
+  background-color: darkblue;
+  padding: 10px;
+  border-radius: 10px;
+  color: #ffffff;
+}
+
+.sectionBackgroundColor {
+  background-color: turquoise;
+}
+
+.leftDescriptionBox {
+  display: inline;
+}
+
+.leftSectionTitle {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 4em;
+}
+
+.scheduleBtn {
+  background-color: darkblue;
+  padding: 15px;
+  border-radius: 10px;
+  color: #ffffff;
+}
+
+.scheduleBtnTrans {
+  background-color: transparent;
+  border-color: transparent;
+  padding: 15px;
+  color: black;
+  font-weight: bold;
+}
+
+.rightSectionImage {
+  width: inherit;
+  background: -webkit-gradient(linear, left top, right top, color-stop(50%, #33BBFF), color-stop(50%, #33BBFF));
+  background: linear-gradient(90deg, #33BBFF 50%, #33BBFF 50%);
+}
+/*# sourceMappingURL=style.css.map */

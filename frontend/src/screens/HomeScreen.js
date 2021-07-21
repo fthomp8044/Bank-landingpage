@@ -9,16 +9,15 @@ import {
 } from "react-bootstrap";
 function HomeScreen() {
   return (
-    <section>
-      <Container fluid>
+      <div>
         <Row>
-          <Col md={6} lg={6} xl={6}>
+          <Col md={6} lg={6} xl={6} style={{paddingLeft: '6%', paddingTop: '8%'}}>
             <div className="leftDescriptionBox">
               <div>
-                <h1>Post When your audience is most active.</h1>
+                <h1 className='leftTitleSection'>Post When your audience is most active.</h1>
               </div>
               <div>
-                <p>
+                <p style={{fontSize: 'larger'}}>
                   With TimeNow, automatically schedule your posts on Twitter,
                   LinkedIn, and Instagram to post when your followers are most
                   active.
@@ -57,10 +56,11 @@ function HomeScreen() {
               </div>
             </div>
           </Col>
-          <Col md={6} lg={6} xl={6}></Col>
+          <Col md={6} lg={6} xl={6}>
+            <Image className='rightSectionImage' src='../Assets/Mockup.png' />
+          </Col>
         </Row>
-      </Container>
-    </section>
+      </div>
   );
 }
 
