@@ -45,6 +45,7 @@
   padding: 15px;
   border-radius: 10px;
   color: #ffffff;
+  font-weight: bold;
 }
 
 .scheduleBtnTrans {
@@ -59,5 +60,26 @@
   width: inherit;
   background: -webkit-gradient(linear, left top, right top, color-stop(50%, #33BBFF), color-stop(50%, #33BBFF));
   background: linear-gradient(90deg, #33BBFF 50%, #33BBFF 50%);
+}
+
+.avatarImage {
+  width: 7%;
+  margin-top: 5%;
+  margin-left: 2%;
+}
+
+.scheduleRow {
+  padding-top: 7%;
+  background-color: #cdf9fd;
+}
+
+.unifiedDashboard {
+  color: blue;
+  font-size: large;
+  font-weight: bold;
+}
+
+.dashboardTitle {
+  color: #205761;
 }
 /*# sourceMappingURL=style.css.map */

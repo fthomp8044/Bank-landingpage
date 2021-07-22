@@ -7,6 +7,8 @@ import {
   ButtonGroup,
   Image,
 } from "react-bootstrap";
+import Avatar from '../components/Avatar'
+
 function HomeScreen() {
   return (
       <div>
@@ -58,6 +60,36 @@ function HomeScreen() {
           </Col>
           <Col md={6} lg={6} xl={6}>
             <Image className='rightSectionImage' src='../Assets/Mockup.png' />
+          </Col>
+        </Row>
+        <Row style={{paddingTop: '7%', paddingBottom: '7%'}}>
+          <Col xs={12} md={6} lg={6} xl={6} style={{paddingLeft: '5rem'}}>
+            <h1>TimeNow is used by the most influential people.</h1>
+            <div><Avatar /></div>
+            
+          </Col>
+          <Col xs={12} md={6} lg={6} xl={6}>
+            <div style={{paddingRight: '20%', paddingLeft: '10%'}}><p>The most influential people on Facebook, Twitter, and Instagram are using TweetNow to schedule posts when their followers are most active.</p>
+            <p>They generally receive 23% more engagement than people who do not.</p></div>
+            
+          </Col>
+        </Row>
+        <Row className='scheduleRow'>
+          <Col xs={12} md={6} lg={6} xl={6} style={{paddingLeft: '5rem'}}>
+            <div>
+              <p className='unifiedDashboard'>Unified Dashboard</p>
+              <h2 className='dashboardTitle'>Customizable dashboard for all platforms.</h2>
+              <p>Use Twitter and Instagram but not LinkedIn? You can customize your dashboard to your liking. You can even schedule the same post to individual platforms instead of all platforms.</p>
+              <button className='scheduleBtn'>Start Scheduling</button>
+            </div>
+          </Col>
+          <Col xs={12} md={6} lg={6} xl={6} style={{paddingLeft: '5rem', paddingRight: '5rem', paddingBottom: '5rem'}}>
+          <div>
+              <p className='unifiedDashboard'>Enchaced Analytics</p>
+              <h2 className='dashboardTitle'>Real-time data that tells your everything.</h2>
+              <p>Get detailed reports of what's working and what isn't. Engagement rates, impressions, views, and much more data is available to you through our in-depth dashboard tool.</p>
+              <a href='/' style={{color: 'grey', fontWeight: 'bold'}}><p>View live Demo →</p></a>
+            </div>
           </Col>
         </Row>
       </div>
